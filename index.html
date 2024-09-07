@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>YouTube Video Downloader</title>
+</head>
+
+<body>
+    <form action="#">
+        <header>Download Thumbnail</header>
+        <div class="url-input">
+            <span class="title">Paste video url: </span>
+            <div class="field">
+                <input type="text" placeholder="https://www.youtube.com/watch?v=ZmPYp0dw38o" required>
+                <div class="bottom-line"></div>
+            </div>
+        </div>
+        <div class="preview-area">
+            <img class="thumbnail" src="" alt="thumbnail">
+            <i class="icon fas fa-cloud-download-alt"></i>
+            <span>Paste video url to see preview</span>
+        </div>
+        <button class="download-btn" type="submit">Open Thumbnail in new Tab</button>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
